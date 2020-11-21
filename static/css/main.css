@@ -1,0 +1,86 @@
+.header{
+    color: white;
+    background: #2C2F33;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    padding: 3px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.nav-icons{
+    font-size: 28px;
+    color:white;
+    text-align: center
+}
+.side-navbar{
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: #2C2F33;
+    float: left;
+    text-align: center
+}
+.logo img{
+    max-width: 100px;
+}
+.project-name{
+    border-left: 5px solid white;
+}
+.project-name h1{
+    font-family: "Agency FB";
+    font-size: 48px;
+}
+@media only screen and (max-width: 840px){
+    .project-name h1{
+        font-size: 36px;
+    }
+}
+h2{
+    font-family: 'Crimson Text', serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    width: 100%;
+}
+.main-body{
+    width: 85%;
+    margin: 20px auto
+}
+@media only screen and (max-width: 960px) {
+    .main-body{
+        width: 95%;
+    }
+}
+main{
+    width: 100%;
+}
+.owl-carousel .item{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Light";
+}
+.slide1{
+    background-image: url("https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+.slide3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
