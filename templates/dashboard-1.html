@@ -1,64 +1,48 @@
-{% extends 'navbar.html' %}
+{% extends 'navbar1.html' %}
 {% block content %}
 
 <div class="container-fluid">
+
     <div class="row content">
         <br>
 
-         <div class="col-sm-9">
-            <div class="well">
-                <h4>Dashboard</h4>
-                <p>Some text..</p>
+        <div class="col-sm-9">
+            <div class="well" style="color: #11557C">
+                <h1>Dashboard</h1>
             </div>
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="well" style="width: 200px; height: 200px;">
-                        <i class="fas fa-user-friends" style="font-size:120px; color: yellow"></i>
-                        <p>1 Million</p>
+                <div class="col-6 col-lg-3">
+                    <div class="dash-property" style="background-color:orangered; width: 250px; height: 150px;">
+                        <i class="fas fa-user-friends" style="font-size: 80px;color: #cdcdcd; margin-left:65px;"></i>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="well" style="width: 200px; height: 200px;">
-                        <i class="fas fa-chart-bar" style="font-size:120px; color: red"></i>
-                        <p>100 Million</p>
+                <div class="col-6 col-lg-3">
+                    <div class="dash-property" style="background-color:orange; width: 250px; height: 150px; margin-left: 35px;">
+                        <i class="fas fa-info" style="font-size: 80px;color: white; margin-left:100px;"></i>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="well" style="width: 200px; height: 200px;">
-                        <i class="fas fa-info-circle" style="font-size:120px; color: deepskyblue"></i>
-                        <p>10 Million</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="well">
-                        <h4>Bounce</h4>
-                        <p>30%</p>
+                <div class="col-6 col-lg-3">
+                    <div class="dash-property" style="background-color:royalblue; width: 250px; height: 150px;margin-left:60px;">
+                        <i class="fas fa-chart-area" style="font-size: 80px;color: #cdcdcd; margin-left:85px;"></i>
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
+            <button class="btn btn-info" type="button" name="button" style="width: 150px;margin-left:650px" onclick="location.href='/dashboard'">
+                    Show In-Depth Analysis
+                </button>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="well" style="width: 900px; height: 700px;">
-                        <oracle-dv project-path="/@Catalog/users/fzaheer.bscs19seecs@seecs.edu.pk/Qasim">
+                    <div class="well" style="width: 1400px; height: 1000px;">
+                        <oracle-dv project-path="/@Catalog/users/fzaheer.bscs19seecs@seecs.edu.pk/16 Clusters"
+                                   active-page="insight" active-tab-id="6b3988fc-c5f0-42ee-bf8e-dc271064b413">
                         </oracle-dv>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="well" style="width: 400px; height: 400px; margin-left: 600px;">
-                        <oracle-dv project-path="/@Catalog/users/fzaheer.bscs19seecs@seecs.edu.pk/Qasim"
-                                   active-page="canvas" active-tab-id="7">
-                        </oracle-dv>
-                    </div>
-                </div>
-
             </div>
             <div class="row">
-                <div class="col-sm-8">
 
-                </div>
-                <div class="col-sm-4">
-
-                </div>
             </div>
         </div>
     </div>

@@ -7,6 +7,9 @@
     top: 0;
     z-index: 99;
 }
+.header-heading{
+    color: white;
+}
 .nav-icons{
     font-size: 28px;
     color:white;
@@ -69,18 +72,24 @@ main{
     color: white;
     font-family: "Roboto Light";
 }
-.slide1{
-    background-image: url("https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.dash-property{
+    padding: 10px;
 }
-.slide2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+.dash-property{
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75)
 }
-.slide3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+.dash-property>p{
+    margin: 0;
+}
+.analytic-1{
+    width: 60%; float: left
+}
+.analytic-2{
+    width: 40%; float: right
 }
